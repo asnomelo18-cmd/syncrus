@@ -1,0 +1,30 @@
+name: clipsync_app
+description: "Syncrus - presse-papier PC vers téléphone"
+publish_to: 'none'
+version: 1.4.0+5
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  web_socket_channel: ^3.0.3
+  shared_preferences: ^2.5.6
+  share_plus: ^11.0.0
+  path_provider: ^2.1.5
+  image_picker: ^1.1.2
+  file_picker: ^10.0.0
+  crypto: ^3.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/

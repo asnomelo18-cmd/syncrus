@@ -1,0 +1,46 @@
+# ===== Flutter / Dart (app/) =====
+app/.dart_tool/
+app/.flutter-plugins
+app/.flutter-plugins-dependencies
+app/.packages
+app/build/
+app/.idea/
+app/*.iml
+app/android/.gradle/
+app/android/local.properties
+app/android/app/debug/
+app/android/app/release/
+app/android/key.properties
+app/android/**/*.jks
+app/android/**/*.keystore
+app/ios/Pods/
+app/ios/.symlinks/
+app/ios/Flutter/Generated.xcconfig
+app/ios/Flutter/flutter_export_environment.sh
+
+# ===== Python (pc/) =====
+__pycache__/
+*.pyc
+.venv/
+venv/
+pc/build/
+pc/dist/
+pc/*.spec
+
+# ===== Secrets : ne JAMAIS publier =====
+*.pem
+.syncrus_pin
+.clipsync_pin
+key.properties
+
+# ===== Fichiers livrables (mis dans les Releases, pas dans le code) =====
+*.apk
+*.aab
+*.exe
+
+# ===== Système / éditeurs =====
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
